@@ -1,0 +1,23 @@
+STOCH         cap_test_5 (MIN)
+SCENARIOS
+ SC Scen1     'ROOT'             0.2   Stage1    
+    RHS1      SecondStCnstr1          11
+    RHS1      SecondStCnstr2          12
+    RHS1      SecondStCnstr3          13
+ SC Scen2     SCEN1             0.2   Stage2    
+    RHS1      SecondStCnstr1          21
+    RHS1      SecondStCnstr2          22
+    RHS1      SecondStCnstr3          23
+ SC Scen3     SCEN1             0.2   Stage2    
+    RHS1      SecondStCnstr1          31
+    RHS1      SecondStCnstr2          32
+    RHS1      SecondStCnstr3          33
+ SC Scen4     SCEN1             0.2   Stage2    
+    RHS1      SecondStCnstr1          41
+    RHS1      SecondStCnstr2          42
+    RHS1      SecondStCnstr3          43
+ SC Scen5     SCEN1             0.2   Stage2    
+    RHS1      SecondStCnstr1          51
+    RHS1      SecondStCnstr2          52
+    RHS1      SecondStCnstr3          53
+ENDATA

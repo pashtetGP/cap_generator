@@ -1,0 +1,69 @@
+NAME          cap_test_5 (MIN)
+ROWS
+  N Objective
+  G FirstStCnstr
+  G SecondStCnstr1
+  G SecondStCnstr2
+  G SecondStCnstr3
+  G SecondStCnstr4
+  G SecondStCnstr5
+COLUMNS
+    x1        Objective           1
+    x1        FirstStCnstr        200
+    x1        SecondStCnstr1     11
+    x1        SecondStCnstr2     21
+    x1        SecondStCnstr3     31
+    x1        SecondStCnstr4     41
+    x1        SecondStCnstr5     51
+    x2        Objective           1
+    x2        FirstStCnstr        300
+    x2        SecondStCnstr1     12
+    x2        SecondStCnstr2     22
+    x2        SecondStCnstr3     32
+    x2        SecondStCnstr4     42
+    x2        SecondStCnstr5     52
+    y1        Objective           1
+    y1        SecondStCnstr1      11
+    y1        SecondStCnstr2      21
+    y1        SecondStCnstr3      31
+    y1        SecondStCnstr4      41
+    y1        SecondStCnstr5      51
+    y2        Objective           1
+    y2        SecondStCnstr1      11
+    y2        SecondStCnstr2      21
+    y2        SecondStCnstr3      31
+    y2        SecondStCnstr4      41
+    y2        SecondStCnstr5      51
+    y3        Objective           2
+    y3        SecondStCnstr1      12
+    y3        SecondStCnstr2      22
+    y3        SecondStCnstr3      32
+    y3        SecondStCnstr4      42
+    y3        SecondStCnstr5      52
+    y4        Objective           2
+    y4        SecondStCnstr1      12
+    y4        SecondStCnstr2      22
+    y4        SecondStCnstr3      32
+    y4        SecondStCnstr4      42
+    y4        SecondStCnstr5      52
+    y5        Objective           3
+    y5        SecondStCnstr1      13
+    y5        SecondStCnstr2      23
+    y5        SecondStCnstr3      33
+    y5        SecondStCnstr4      43
+    y5        SecondStCnstr5      53
+    y6        Objective           3
+    y6        SecondStCnstr1      13
+    y6        SecondStCnstr2      23
+    y6        SecondStCnstr3      33
+    y6        SecondStCnstr4      43
+    y6        SecondStCnstr5      53
+RHS
+    RHS1      FirstStCnstr         156
+    RHS1      SecondStCnstr1         12345.0
+    RHS1      SecondStCnstr2         12345.0
+    RHS1      SecondStCnstr3         12345.0
+BOUNDS
+ BV BOUND1    x1                 1.0
+ BV BOUND1    x2                 1.0
+ENDATA
