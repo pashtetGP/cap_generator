@@ -1,0 +1,6 @@
+TIME          cap134_4000  (MIN)
+PERIODS       IMPLICIT
+    x1        FirstStCnstr                 Stage1    
+    y1        SecondStCnstr1               Stage2    
+ENDATA
+    
